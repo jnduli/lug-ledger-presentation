@@ -1,0 +1,40 @@
+Plain Text Accounting
+Ledger
+15:04 2 Jan 2006
+Tags: foo, bar, baz
+
+Author Name
+Job title, Company
+joe@example.com
+http://url/
+@twitter_name
+
+* Plain Text Accounting
+What is this?
+
+Why use it?
+- Simple text files so easy to understand
+- Versatile
+- Version control
+- Easy to build extra tooling around this
+
+* Ledger File
+
+    2019/02/20 * Starting the ledger
+        Assets:bank:kcb                     Ksh 10000.00
+        Assets:cash                          Ksh 1000.00
+        Equity:Opening Balances
+
+    2019/02/21 * Transport to Town
+        Expenses:transport                     Ksh 80.00
+        Assets:cash
+
+* Report Basics
+
+    ledger bal -f example.ledger balance
+    ledger bal -f example.ledger register
+    ledger bal -f example.ledger balance transport
+    ledger bal -f example.ledger register transport
+
+* Advanced Concepts
+Using ledgerrc
