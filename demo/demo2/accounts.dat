@@ -1,0 +1,8 @@
+account Assets:bank:kcb
+account Assets:bank:stanchart
+account Assets:cash
+account Assets:mpesa
+account Equity:Opening Balances
+account Expenses:laptop
+account Expenses:raspi
+account Expenses:transport

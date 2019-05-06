@@ -1,0 +1,18 @@
+2019/02/20 * Starting the ledger
+    Assets:bank:kcb                     Ksh 10000.00
+    Assets:bank:stanchart               Ksh 10000.00
+    Assets:cash                          Ksh 1000.00
+    Assets:mpesa                         Ksh 2000.00
+    Equity:Opening Balances
+
+2019/02/21 * Barter
+    Assets:cash                        20 Orange
+    Income:barter
+
+2018/02/21 * Barter
+    Assets:cash                         40 Sweet
+    Income:barter
+
+2019-03-26 * Income
+    Assets:cash                              $ 20.00
+    Income:maintenance

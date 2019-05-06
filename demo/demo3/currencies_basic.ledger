@@ -16,3 +16,11 @@
 2019/02/22 * Equity Bank Withdrawal
     Assets:cash                          Ksh 4000.00
     Assets:bank:kcb
+
+2019-03-26 * Transport
+    Expenses:watch                            $ 9.00
+    Assets:cash                          Ksh -900.00
+
+2019-03-26 * Income
+    Assets:cash                              $ 20.00
+    Income:maintenance

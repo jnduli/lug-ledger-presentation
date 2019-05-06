@@ -1,0 +1,29 @@
+2019/02/20 * Starting the ledger
+    Assets:bank:kcb                     Ksh 10000.00
+    Assets:bank:stanchart               Ksh 10000.00
+    Assets:cash                          Ksh 1000.00
+    Assets:mpesa                         Ksh 2000.00
+    Equity:Opening Balances
+
+2019/02/21 * Transport to Town
+    Expenses:transport                     Ksh 80.00
+    Assets:cash
+
+2018/02/21 * Purchase of arduino
+    Expenses:laptop                      Ksh 1000.00
+    Assets:bank:stanchart
+
+2019/02/22 * Equity Bank Withdrawal
+    Assets:cash                          Ksh 4000.00
+    Assets:bank:kcb
+
+2019-03-26 * Transport
+    Expenses:raspi                         Ksh 80.00
+    Assets:cash
+
+2019-03-26 * Transport
+    Expenses:trans                         Ksh 80.00
+    Assets:cash
+2019-03-26 * Transport
+    Expenses:transport                         Ksh 80.00
+    Assets:cash

@@ -1,13 +1,21 @@
 Plain Text Accounting
 Ledger
-15:04 2 Jan 2006
-Tags: foo, bar, baz
+6 Mar 2019
 
-Author Name
-Job title, Company
-joe@example.com
-http://url/
-@twitter_name
+John Nduli
+Software Dev, CHAI
+yohanaizraeli@gmail.com
+https://jnduli.co.ke/
+@jnduli
+
+* *Joke*
+Chai = Bribery, although not true in this case
+
+* Every Problem is a Money Problem
+: Money is a religion
+: Creates a problem of how to get money and how to manage it
+: Professions that handle money: bankers, accountants, etc
+: Personal management??
 
 * Plain Text Accounting
 What is this?
@@ -17,6 +25,15 @@ Why use it?
 - Versatile
 - Version control
 - Easy to build extra tooling around this
+
+* Use Cases
+- Fedora
+- NGOs 
+- Companies
+- Individuals
+
+Find more here
+.link https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F
 
 * Ledger File
 
@@ -36,5 +53,39 @@ Why use it?
     ledger bal -f example.ledger balance transport
     ledger bal -f example.ledger register transport
 
-* Advanced Concepts
-Using ledgerrc
+* Demo
+
+* Dealing with the account noise
+
+    ledger accounts >> Accounts.dat # You'll need to add accounts to start of each line
+    ledger --strict --explicit --file example.ledger bal
+
+** Using ledgerrc
+
+    --strict
+    --explicit
+    --file path/to/example.ledger
+
+* Dealing with currencies
+
+    2019/02/21 * Transport to Town
+        Expenses:transport                     $ 8.00
+        Assets:cash                       Ksh -800.00
+
+    2019/02/22 * Income
+        Assets:cash                           $ 90.00
+        Income:random
+
+    ledger -X Ksh balance Assets -f currencies_basic.ledger
+    ledger --price-db prices.db --market -X Orange balance Assets -f currencies.ledger
+
+
+* Where to find help
+.link https://www.ledger-cli.org/
+.link https://plaintextaccounting.org/
+
+* Interesting Maneno
+- .link https://hledger.alhur.es/
+- You can use ledger to build up a POS system
+- Barter trade would have succeeded with ledger ;)
+- Group finances with hledger or beanutils
